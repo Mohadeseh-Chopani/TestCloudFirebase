@@ -62,9 +62,20 @@
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
+        android:text="Save user"
         android:id="@+id/btn_save"
         app:icon="@drawable/baseline_save_24"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get user"
+        android:id="@+id/btn_get"
+        app:icon="@drawable/baseline_save_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
 </LinearLayout>
